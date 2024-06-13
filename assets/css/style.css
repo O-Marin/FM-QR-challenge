@@ -1,3 +1,11 @@
+*{
+  
+  margin: 0;
+}
+
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -20,6 +28,7 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--light-grays);
+  
 }
 
 h3 {
@@ -28,12 +37,23 @@ h3 {
 
 p {
   font-weight: var(--regular);
+  font-size: 15px;
 }
 
 @media (max-width: 414px) {
+  body{
+    height: 100%;
+    margin: 5em 1.5em;
+  }
+
+
   #qr-component {
-    padding: 1em;
+    
     background-color: white;
+    border-radius: 15px;
+  }
+  #component-container{
+    padding: 1em;
   }
  #qr-code-container{
     width: 100%;
@@ -41,6 +61,19 @@ p {
   #qr-code img{
     width: 100%;
   object-fit: cover;
+  border-radius: 10px;
+  }
+  #qr-component-text{
+    
+    padding: 1.5em;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    margin-top: 1em;
+    color:var(--grayish-blue);
+    text-align: center;
   }
 }
 @media (min-width: 415px) {
