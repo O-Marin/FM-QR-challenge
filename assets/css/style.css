@@ -87,7 +87,8 @@ p {
   #qr-component{
     background-color: white;
     border-radius: 15px;
-    width: 20%;
+    width: 300px;
+    
   }
   #component-container{
     padding: 1em;
@@ -126,7 +127,7 @@ p {
   }
   
   #qr-component {
-    width: 20%;
+    width: 300px;
     background-color: white;
     border-radius: 15px;
   }
